@@ -1,0 +1,20 @@
+body{
+    background-color: #26006e;
+}
+h1,h2{
+    text-align: center;
+}
+.step1, .result{
+    display: flex;
+    justify-content: center;
+}
+.hand{
+    opacity: 0.5;
+}
+.hand:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
