@@ -1,0 +1,41 @@
+.container{
+    background-color: white;
+    position: relative;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 336px; 
+    height: 329px; 
+    border: 2px solid black;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+ }
+.row{
+    display: flex;
+    
+}    
+.rec{
+    position: relative;
+    width: 20px; /* Rectangle width */
+    height: 20px; /* Rectangle height */
+    border: 1px solid gray;
+    
+}
+/* for all balck*/
+.black{
+    background-color: black; 
+}
+/*for all red */
+.red{
+    background: red;
+}
+/* for all white */
+.white{
+    background: white;
+
+}
+/* for all yellow*/
+.yellow{
+    background-color:yellow;
+}

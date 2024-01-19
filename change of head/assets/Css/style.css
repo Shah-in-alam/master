@@ -1,0 +1,51 @@
+body{
+    background-color:white;
+    margin: 20px;
+}
+.picture{
+    background-image: url("../img/background.png");
+    align-items: center; 
+    height: 370px;
+    width: 700px;
+    margin-right:500px ;
+    margin-left: 30px;
+    margin-bottom: 300px;
+}
+.person1{
+     background-size: cover; 
+    background-position: center; 
+    padding: 20px;    
+    width: 85px;
+    height: 120px;
+    margin: 115px;
+    padding-top: 9px;
+    background-image: url("../img/person2.png");
+}
+.person2{
+    background-size: cover;
+     background-image: url("../img/person1.png");
+     background-position: center;
+     padding: 20px;
+     width: 83px;
+     height: 100px;
+     margin-left: 357px;  
+     margin-top: 52px;     
+}
+.picture:hover{
+    .person1{
+        background-image: url("../img/person1.png");  
+        padding: 18px;    
+        width: 85px;
+        height: 120px;
+    }
+}
+.picture:hover{
+    .person2{
+        background-image: url("../img/person2.png");
+        width: 83px;
+        height: 100px;
+        padding: 20px;
+         margin-left: 355px;  
+         margin-top: 43px; 
+    }
+}

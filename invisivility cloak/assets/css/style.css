@@ -1,0 +1,22 @@
+body{
+    margin: 50px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+ .container{
+    position: relative; 
+}
+.picture{
+    width: 730px;
+    height: 600px;
+    transition: opacity 0.5s ease-in-out;
+    background-image: url("../img/pic.png");    
+}
+.picture:hover{
+    opacity: 0;
+ 
+}
