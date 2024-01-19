@@ -1,0 +1,23 @@
+
+body{
+    background-color: chocolate;
+    width: 100vw;
+    height: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letter{
+    font-size: 180px;
+    color: white;
+    opacity: 0.5;
+    font-family: Rubick Bubbles;
+}
+.letter:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+ .active{
+    opacity: 1;
+ }  

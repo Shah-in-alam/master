@@ -1,0 +1,52 @@
+body{
+    background-color: orange;
+}
+.face{
+    width: 300px;
+    height:  300px;
+
+    background-color: yellow;
+    border-radius: 100%;
+
+    border:  yellow solid black;
+    margin:  40px;
+    position: relative;
+    display: inline-block;
+}
+.eye{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius:  100px;
+}
+ .eye-ball{
+    width: 30px;
+                height: 30px;
+                background-color: blue;
+                border-radius: 100%;
+                
+                z-index: 99;
+                position:absolute;
+ }
+ .eye-ball-left{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+ }
+ .face:hover {
+    background-color: red;
+}
+
+.face:hover .eye {
+    background-color: black;
+}
+.face:hover .eye.eye-right {
+    background-color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+}

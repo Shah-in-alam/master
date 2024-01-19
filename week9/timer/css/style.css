@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    color: blue;
+    text-shadow: 2rem;
+}
+h2{
+    color: yellow;
+}
+button{
+   background-color: darkorange; 
+}
+.js-pause-button{
+    color: indigo;
+    background-color: green;
+    text-decoration: solid;
+    padding: 1px;
+}
+.js-stop-button{
+    color: white;
+    background-color: red;
+    text-decoration: solid;
+    padding: 1px;
+
+}

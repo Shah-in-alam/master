@@ -1,0 +1,71 @@
+h1{
+    color: burlywood;
+   /* background-color: white;*/
+    background-image: url("../css/img/pattern.webp");
+    text-align: center;
+
+/*padding*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    padding: 30px 0 30px 0;
+    padding: 30px 0;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    border:5px solid burlywood;
+
+}
+p{
+    text-align: center;
+    font-size: 20px;
+
+}
+ .garden{
+    border: 5px solid gray;
+    margin: 0 150px;
+    padding: 50px;
+    /*display :flex: ;*/
+ }
+ .garden:hover{
+    /*background-color: blue; */
+    background-image: url("../css/img/pattern.jpeg");
+    cursor: pointer;
+ }
+a{
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+}
+ a:link{
+    color: pink;/*defaultlink color for the websited linkes*/
+ }
+ a:visited{
+    background-color: orange;/* color for visited links*/
+ }
+ a:hover{
+    background-color: white;
+
+ }
+ a:active{
+    background-color: blue;
+ }
+ .tomato{
+    height: 50px;
+    width:  50px;
+    border-radius: 100%;
+    background-color: tomato;
+    margin:25px;
+ }
+ .tomatoOranga{
+    background-color: orange;
+    height: 25px;
+    width: 25px;
+ }
+ .charyTomato{
+    height: 25px;
+    width: 25px;
+    background-color: chartreuse;
+ }
+
