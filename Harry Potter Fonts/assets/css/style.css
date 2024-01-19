@@ -1,0 +1,26 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&family=Rubik+Bubbles&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Raleway:wght@100&family=Roboto:wght@100&family=Rubik+Bubbles&display=swap');
+
+
+body{
+    background-color: white;
+
+}
+h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+h2{
+    color: yellow;
+    font-family: "Raleway";
+
+}
+h3{
+    color: blue;
+    font-family: "Amatic SC";
+}
+h4{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
